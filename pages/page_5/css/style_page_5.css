@@ -1,0 +1,87 @@
+@import url("../../../common/css/reset.css");
+@import url("../../../common/css/common.css");
+@import url("../../../common/css/fonts.css");
+
+.footer{
+	background-color: #7ACCC8;
+	width: 1600px;
+	height:693px;
+	box-sizing:border-box;
+	padding-top: 71px;
+	margin:0 auto;
+}
+
+.footer__text{
+	width: 650px;
+	float:left;
+	margin-left: 210px;
+}
+
+.text__paragraph{
+	font-size: 14px;
+	color:#fff;
+	line-height: 24px;
+}
+
+.text__paragraph_first{
+	width: 400px;
+	float:left;
+}
+
+.text__paragraph_second{
+	width: 235px;
+	float:right;
+}
+
+.footer__navigation{
+	float:right;
+	margin-right: 245px;
+	font-family:"TeX Gyre Heros Bold";
+	/* text-decoration: none; */
+}
+
+.footer__navigation li{
+	margin-bottom: 20px;
+}
+
+.navigation__link{
+	font-size: 14px;
+	line-height: 14px;
+	color:#fff;
+}
+
+.footer__clear{
+	clear:both;
+}
+
+.footer__picture{
+	width: 60px;
+	height: 62px;
+	background: url('../images/star.png') no-repeat center center;
+	margin:48px auto 80px auto;
+}
+
+.footer__website{
+	font-size: 12px;
+	text-transform: uppercase;
+	color:#fff;
+	text-align: center;
+	letter-spacing:6px;
+}
+
+.footer__website_link{
+	color:#fff;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* .sub{
+	width: 1600px;
+	height: 693px;
+	background: url('../images/substrate_page_5.png') no-repeat;
+	position: absolute;
+	opacity:0.5;
+	top:0px;
+} */

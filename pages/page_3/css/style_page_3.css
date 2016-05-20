@@ -1,0 +1,127 @@
+@import url("../../../common/css/reset.css");
+@import url("../../../common/css/common.css");
+@import url("../../../common/css/fonts.css");
+
+body{
+	background: #333;
+}
+
+.design{
+	width: 1600px;
+	height: 825px;
+	margin:0 auto;
+	background: transparent;
+	position: relative;
+}
+
+.design__arrow_left{
+	height: 24px;
+	width: 776px;
+	background: #fff;
+	position: relative;
+	left:0;
+	top:0;
+}
+
+.design__arrow_left:after{
+	content:'';
+	width: 0px;
+	height: 0px;
+	background: transparent;
+	border:12px solid transparent;
+	border-left-color: #fff;
+	border-bottom-color: #fff;
+	position: absolute;
+	left:776px;
+}
+
+.design__arrow_right{
+	height: 24px;
+	width: 776px;
+	background: #fff;
+	position: absolute;
+	top:0px;
+	left:824px;
+}
+
+.design__arrow_right:before{
+	content:'';
+	width: 0px;
+	height: 0px;
+	background: transparent;
+	border:12px solid transparent;
+	border-right-color: #fff;
+	border-bottom-color: #fff;
+	position: absolute;
+	left:-24px;
+}
+
+.design__content{
+	height: 801px;
+	background: #fff;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	align-content:flex-start;
+	box-sizing:border-box;
+	padding-top:85px;
+}
+
+.content__column{
+	width:800px;
+	height: 441px;
+	box-sizing:border-box;
+}
+
+.content__column_left{
+	border-right:1px solid #ecf0f3;
+	padding-left: 210px;
+}
+
+.content__column_right{
+	padding-left: 70px;
+}
+
+.content__chapter{
+	width: 525px;
+	margin-bottom: 75px;
+}
+
+.content__chapter_heading{
+	font-size: 15px;
+	text-transform: uppercase;
+	color:#9197a8;
+	margin-bottom: 20px;
+	letter-spacing:2px;
+}
+
+.content__chapter_text{
+	font-size: 16px;
+	color:#7a8387;
+	line-height: 30px;
+}
+
+.content__button_tryDemo{
+	width: 181px;
+	height: 61px;
+	padding: 0;
+	box-sizing:border-box;
+	background-color: #F69679;
+	font-size: 18px;
+	line-height: 60px;
+	text-align: center;
+	border-radius: 3px;
+	border:none;
+	color:#fff;
+	margin-top: 78px;
+	margin-left: 20px;
+}
+
+/* .sub{
+	width: 1600px;
+	height: 869px;
+	background: url('../images/substrate_page_3.png') no-repeat;
+	position: relative;
+	opacity:0.5;
+	top:-869px;
+} */

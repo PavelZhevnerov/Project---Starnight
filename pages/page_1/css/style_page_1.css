@@ -1,0 +1,78 @@
+@import url("../../../common/css/reset.css");
+@import url("../../../common/css/common.css");
+@import url("../../../common/css/fonts.css");
+
+
+body{
+	background-color: #333;
+}
+
+.header{
+	width: 1600px;
+	height: 882px;
+	background:#333 url('../images/background.png') no-repeat;
+	padding-top: 177px;
+	box-sizing:border-box;
+	margin:0 auto;
+}
+
+.header__title{
+	font-size:60px;
+	color:#fff;
+	text-align: center;
+	margin-bottom: 15px;
+	padding-left:20px;
+}
+
+.header__text{
+	font-size: 17px;
+	color:#d0e7e9;
+	text-align:center;
+	width: 700px;
+	height: 60px;
+	line-height: 30px;
+	margin:0 auto 72px auto;
+}
+
+.header__button_play{
+	width: 99px;
+	height: 99px;
+	border:10px solid #fff;
+	border-radius: 50%;
+	background-color: transparent;
+	position: relative;
+	display:block;
+	margin:0 auto 263px auto;
+}
+
+.header__button_play:before {
+	content: " ";
+	position: absolute;
+	left: 34px;
+	top: 20px;
+	border:20px solid transparent;
+	border-left-color: #fff;
+	transform: scaleY(0.70);
+}
+
+.header__button_getStarted{
+	font-size: 22px;
+	color:#fff;
+	text-align: center;
+	height: 70px;
+	width: 280px;
+	border-radius: 3px;
+	background-color: #7ACCC8;
+	border:none;
+	display: block;
+	margin:0 auto;
+}
+
+/* .sub{
+	width: 1600px;
+	height: 882px;
+	background: url('../images/substrate_page_1.png') no-repeat;
+	position: relative;
+	opacity:0.5;
+	top:-882px;
+} */

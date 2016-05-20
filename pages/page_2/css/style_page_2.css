@@ -1,0 +1,152 @@
+@import url("../../../common/css/reset.css");
+@import url("../../../common/css/common.css");
+@import url("../../../common/css/fonts.css");
+
+body{
+	background: #333;
+}
+
+.description{
+	width: 1600px;
+	height: 1377px;
+	background-color: #fff;
+	box-sizing:border-box;
+	margin:0 auto;
+}
+
+.description__item_info{
+	height: 754px;
+	background-color: #E8B968;
+	box-sizing:border-box;
+	padding-left: 210px;
+	padding-top: 67px;
+	position: relative;
+	overflow:hidden;
+}
+
+.info__text{
+	width: 685px;
+	height: 436px;
+	padding-top: 20px;
+	box-sizing:border-box;
+}
+
+.info__text_title{
+	font-size: 55px;
+	color:#fff;
+	margin-bottom: 31px;
+}
+
+.info__text_text{
+	font-size: 16px;
+	line-height: 30px;
+	color:#fff;
+	margin-bottom: 30px;
+}
+
+.info__button_download{
+	height: 68px;
+	width: 280px;
+	padding: 0;
+	box-sizing:border-box;
+	border: 3px solid #fff;
+	border-radius: 3px;
+	box-sizing:border-box;
+	font-size: 18px;
+	text-align: center;
+	color:#fff;
+	background-color: #E8B968;
+}
+
+.info__picture_circle1{
+	width: 329px;
+	height: 334px;
+	background: transparent url('../images/circle1.png');
+	position: absolute;
+	left:871px;
+	top:337px;
+}
+
+.info__picture_circle2{
+	width: 499px;
+	height: 506px;
+	background: transparent url('../images/circle2.png');
+	position: absolute;
+	left:756px;
+	top:518px;
+}
+
+.info__picture_ipad{
+	width: 624px;
+	height: 1287px;
+	border-radius:55px 0 0 55px;
+	background: transparent url('../images/iPad.png');
+	position: absolute;
+	right: 0px;
+	top:67px;
+	box-shadow:-23px 23px rgba(0, 0, 0, 0.2);
+}
+
+.description__item_quote{
+	height: 623px;
+	background: url('../images/nature.png') no-repeat;
+	background-size:cover;
+}
+
+.quote__content{
+	height: 623px;
+	background: linear-gradient(90deg, transparent 0%, #5b6869 60%);
+	padding-top: 135px;
+	box-sizing:border-box;
+}
+
+.quote__content_picture{
+	height:122px;
+	width: 122px;
+	margin:0 auto;
+	border:5px solid #fff;
+	border-radius:50%;
+	background: url('../images/man.png') no-repeat;
+	background-position: 38% 8%;
+}
+
+.quote__content_title{
+	font-family:"Lato Light Italic", Lato, Roboto, sans-serif;
+	font-size: 43px;
+	line-height: 55px;
+	text-align: center;
+	color:#fff;
+	margin:23px auto 60px auto;
+	width: 1100px;
+}
+
+.quote__content_buttons{
+	width: 96px;
+	height: 16px;
+	margin:0 auto;
+	text-align: center;
+	display:flex;
+	justify-content:space-between;
+}
+
+.buttons__link{
+	width: 8px;
+	height: 8px;
+	border-radius:50%;
+	border:4px solid #fff;
+	display:inline-block;
+	background: transparent;
+}
+
+.buttons__link:hover{
+	background: #fff;
+}
+
+/* .sub{
+	width: 1600px;
+	height: 1379px;
+	background: url('../images/substrate_page_2.png') no-repeat;
+	opacity:0.5;
+	position: absolute;
+	top:0px;
+} */

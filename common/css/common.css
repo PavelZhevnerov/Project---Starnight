@@ -1,0 +1,23 @@
+.font__lato_light{
+	font-family:"Lato Light", Lato, Roboto, sans-serif;
+}
+
+.font__lato_italic{
+	font-family:"Lato Italic", Lato, Roboto, sans-serif;
+}
+
+.font__lato_bold{
+	font-family:"Lato Bold", Lato, Roboto, sans-serif;
+}
+
+.font__lato_regular{
+	font-family:"Lato Regular", Lato, Roboto, sans-serif;
+}
+
+.font__texgyreheros_regular{
+	font-family:"TeX Gyre Heros Regular", "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arimo, sans-serif;
+}
+
+button:hover{
+	cursor: pointer;
+}
