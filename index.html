@@ -6,17 +6,22 @@
 		<meta name="keywords" content="Starnight, app, lorem, exercitation, get">
 		<title>Index</title>
 		<link rel="stylesheet" type="text/css" href="common/css/style.min.css">
+		<link rel="stylesheet" href="common/css/animate.css">
 		<!--[if lt IE 9]> 
  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
 		<![endif]-->
+		<script src="common/js/wow.min.js"></script>
+		<script>
+            new WOW().init();
+        </script>
 	</head>
 	<body>
 		<div id="starnightSite_wrapper">
 
 							<!-- Header - Mast Head -->
 			<header class="starnightSite__item starnightSite__item_header">
-
-				<hgroup>
+				<a name="page_1" href="#"></a>
+				<hgroup class="header__info">
 					<h1 class="header__title font__lato_light">
 						Starnight App
 					</h1>
@@ -24,17 +29,17 @@
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore 	magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
 					</h3>
 				</hgroup>
-				<button type="submit" class="header__button header__button_play"></button>
-				<button type="submit" class="header__button header__button_getStarted font__lato_bold">
+				<button type="submit" class="header__button header__button_play wow rubberBand"></button>
+				<button type="submit" class="header__button header__button_getStarted font__lato_bold wow flipInX" data-wow-delay="0.5s">
 					Get started
 				</button>
 
 			</header>
 							<!-- Page 2 - Description -->
 			<section class="starnightSite__item starnightSite__item_description">
-
+				<a name="page_2" href="#"></a>
 				<div class="description__item description__item_info">
-					<div class="info__text">
+					<div class="info__text wow zoomIn" data-wow-offset="200">
 						<h2 class="info__text_title font__lato_light">
 							See the sky even better than your own eyes can
 						</h2>
@@ -44,25 +49,57 @@
 						<p class="info__text_text font__lato_regular">
 							Auae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
 						</p>
+
+						<div class="info__button info__button_download font__lato_bold wow flipInX" data-wow-delay="0.7s">
+							<a href="common/download/Pavel Zhevnerov - Front-End Developer.pdf" download>
+								<div class="info__button_title">Download Now</div>
+								<div class="info__button_description">Size: 170 Kb</div>
+							</a>
+						</div>
 					</div>
-	
-					<button type="submit" class="info__button info__button_download font__lato_bold">Download Now</button>
-	
-					<div class="info__picture info__picture_circle1"></div>
-					<div class="info__picture info__picture_circle2"></div>
-					<div class="info__picture info__picture_ipad"></div>
+					
+					<div class="info__pictures">
+						<div class="info__picture info__picture_circle1"></div>
+						<div class="info__picture info__picture_circle2"></div>
+						<div class="info__picture info__picture_ipad wow slideInRight" data-wow-offset="200"></div>
+					</div>
 				</div>
 	
 				<div class="description__item description__item_quote">
-					<div class="quote__content">
-						<div class="quote__content_picture"></div>
-						<h3 class="quote__content_title">
-							I couldnt possibly use my own eyes to look at the stars. thanks Starnught App...
-						</h3>
-						<div class="quote__content_buttons">
-							<a href="#" class="buttons__link"></a>
-  							<a href="#" class="buttons__link"></a>
-  							<a href="#" class="buttons__link"></a>
+					<div class="quote__container">
+						<div class="quote__content">
+
+							<input type="radio" name="slides" id="slide1" checked>
+							<input type="radio" name="slides" id="slide2">
+							<input type="radio" name="slides" id="slide3">
+
+							<div class="quote__slider wow bounceIn" data-wow-offset="200">
+								<div class="slides slide1">
+									<div class="quote__content_picture quote__picture_1"></div>
+									<h3 class="quote__content_title">
+										I couldnt possibly use my own eyes to look at the stars. thanks Starnught App...
+									</h3>
+								</div>
+								<div class="slides slide2">
+									<div class="quote__content_picture quote__picture_2"></div>
+									<h3 class="quote__content_title">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut veritatis tempore sunt ullam voluptates necessitatibus!
+									</h3>
+								</div>
+								<div class="slides slide3">
+									<div class="quote__content_picture quote__picture_3"></div>
+									<h3 class="quote__content_title">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, hic.
+									</h3>
+								</div>
+							</div>
+
+							<div class="quote__controls">
+								<label for="slide1"></label>
+								<label for="slide2"></label>
+								<label for="slide3"></label>
+							</div>
+
 						</div>
 					</div>
 				</div>
@@ -70,130 +107,205 @@
 			</section>
 							<!-- Page 3 - Design -->
 			<section class="starnightSite__item starnightSite__item_design">
-
-				<div class="design__arrow_left"></div>
-				<div class="design__arrow_right"></div>
-	
+				<a name="page_3" href="#"></a>
+				<div class="design__arrow">
+					<div class="design__arrow_left"></div>
+					<div class="design__arrow_right"></div>
+				</div>
+				
 				<div class="design__content">
 					
-					<div class="content__column content__column_left">
+					<div class="design__info">
+						<div class="content__column content__column_left">
+							
+							<div class="content__chapter wow fadeInLeft" data-wow-offset="200">
+								<h4 class="content__chapter_heading font__lato_bold">
+									so dreamy
+								</h4>
+								<p class="content__chapter_text font__lato_regular">
+									Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
 						
-						<div class="content__chapter">
-							<h4 class="content__chapter_heading font__lato_bold">
-								so dreamy
-							</h4>
-							<p class="content__chapter_text font__lato_regular">
-								Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
+							<div class="content__chapter wow fadeInLeft" data-wow-offset="200">
+								<h4 class="content__chapter_heading font__lato_bold">
+									apple store
+								</h4>
+								<p class="content__chapter_text font__lato_regular">
+									Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+							
 						</div>
-					
-						<div class="content__chapter">
-							<h4 class="content__chapter_heading font__lato_bold">
-								apple store
-							</h4>
-							<p class="content__chapter_text font__lato_regular">
-								Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
-						</div>
-	
-					</div>
-	
-					<div class="content__column content__column_right">
-	
-						<div class="content__chapter">
-							<h4 class="content__chapter_heading font__lato_bold">
-								more buzz words
-							</h4>
-							<p class="content__chapter_text font__lato_regular">
-								Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
-						</div>
-					
-						<div class="content__chapter">
-							<h4 class="content__chapter_heading font__lato_bold">
-								extra startup juice
-							</h4>
-							<p class="content__chapter_text font__lato_regular">
-								Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-							</p>
+							
+						<div class="content__column content__column_right">
+							
+							<div class="content__chapter wow fadeInRight" data-wow-offset="200">
+								<h4 class="content__chapter_heading font__lato_bold">
+									more buzz words
+								</h4>
+								<p class="content__chapter_text font__lato_regular">
+									Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
+						
+							<div class="content__chapter wow fadeInRight" data-wow-offset="200">
+								<h4 class="content__chapter_heading font__lato_bold">
+									extra startup juice
+								</h4>
+								<p class="content__chapter_text font__lato_regular">
+									Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+							</div>
 						</div>
 					</div>
 	
-					<button class="content__button_tryDemo font__lato_bold">Try Demo</button>
-	
+					<button class="content__button_tryDemo font__lato_bold wow flipInX" data-wow-delay="0.5s">Try Demo</button>
+
 				</div>
+				
 
 			</section>
 							<!-- Page 4 - Work -->
 			<section class="starnightSite__item starnightSite__item_work">
+				<a name="page_4" href="#"></a>
+				<div class="work__content">
 
-				<div class="work__section">
-					<div class="section__block section__block_red"></div>
-					<h4 class="section__heading font__lato_bold">
-						extra startup juice
-					</h4>
-					<p class="section__text font__lato_italic">
-						Added feature
-					</p>
-				</div>
-				
-				<div class="work__section">
-					<div class="section__block section__block_green"></div>
-					<h4 class="section__heading font__lato_bold">
-						so thirsty
-					</h4>
-					<p class="section__text font__lato_italic">
-						Extra nice UI comes with the app
-					</p>
-				</div>
-				
-				<div class="work__topic">
-					<h3 class="topic__title font__lato_light">
-						So flat you’ll want to give it some shadows
-					</h3>
-					<p class="topic__text font__lato_regular">
-						Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					</p>
-					<div class="topic__slider">
-						<button class="topic__button topic__button_back"><</button>
-						<button class="topic__button topic__button_next">></button>
+					<div class="work__section wow flipInY" data-wow-offset="400">
+						<div class="work__section_rotate">
+							<div class="section__front">
+								<div class="section__block section__block_red"></div>
+								<h4 class="section__heading font__lato_bold">
+									extra startup juice
+								</h4>
+								<p class="section__text font__lato_italic">
+									Added feature
+								</p>
+							</div>
+							<div class="section__back">
+								<p class="back__text font__lato_italic">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti cupiditate, possimus praesentium delectus!
+								</p>
+								<p class="back__text font__lato_italic">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe velit incidunt tempore consectetur eaque facilis, nam aliquam unde vel, in corporis molestiae maiores aspernatur quod earum recusandae.
+								</p>
+								<p class="back__text font__lato_italic">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam qui earum repellendus autem, mollitia tempore quod reiciendis, id dolorem perferendis est cum cupiditate asperiores ex officia nesciunt animi unde ea natus quos! Culpa aperiam similique nobis voluptatibus, laborum distinctio doloremque ipsam accusantium inventore animi at dolorem dolor vel, eligendi vitae?
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="work__section wow flipInY" data-wow-offset="400" data-wow-delay="0.5s">
+						<div class="work__section_rotate">
+							<div class="section__front">
+								<div class="section__block section__block_green"></div>
+								<h4 class="section__heading font__lato_bold">
+									so thirsty
+								</h4>
+								<p class="section__text font__lato_italic">
+									Extra nice UI comes with the app
+								</p>
+							</div>
+							<div class="section__back">
+								<p class="back__text font__lato_italic">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe velit incidunt tempore consectetur eaque facilis, nam aliquam unde vel, in corporis molestiae maiores aspernatur quod earum recusandae.
+								</p>
+								<p class="back__text font__lato_italic">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam qui earum repellendus autem, mollitia tempore quod reiciendis, id dolorem perferendis est cum cupiditate asperiores ex officia nesciunt animi unde ea natus quos! Culpa aperiam similique nobis voluptatibus, laborum distinctio doloremque ipsam accusantium inventore animi at dolorem dolor vel, eligendi vitae?
+								</p>
+								<p class="back__text font__lato_italic">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deleniti cupiditate, possimus praesentium delectus!
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="work__topic">
+						
+						<input type="radio" name="work_slides" id="work_slide1" checked>
+						<input type="radio" name="work_slides" id="work_slide2">
+						<input type="radio" name="work_slides" id="work_slide3">
+
+						<div class="work__slider">
+
+							<div class="work__slide work__slide1">
+								<h3 class="topic__title font__lato_light">
+									So flat you’ll want to give it some shadows
+								</h3>
+								<p class="topic__text font__lato_regular">
+									Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+							</div>
+
+							<div class="work__slide work__slide2">
+								<h3 class="topic__title font__lato_light">
+									Lorem ipsum dolor sit amet, consectetur adipisicing.
+								</h3>
+								<p class="topic__text font__lato_regular">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, ex?
+								</p>
+							</div>
+
+							<div class="work__slide work__slide3">
+								<h3 class="topic__title font__lato_light">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, similique?
+								</h3>
+								<p class="topic__text font__lato_regular">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt exercitationem, consequatur dicta enim dolorem ratione, voluptas possimus tempora eveniet ipsum.
+								</p>
+							</div>
+
+						</div>
+
+						<div class="work_controls">
+							<label for="work_slide1"></label>
+							<label for="work_slide2"></label>
+							<label for="work_slide3"></label>
+						</div>
+						
+						<div class="work_side-controls">
+							<label for="work_slide1"></label>
+							<label for="work_slide2"></label>
+							<label for="work_slide3"></label>
+						</div>
+
 					</div>
 				</div>
 
 			</section>
 							<!-- Footer - Contacts -->
 			<footer class="starnightSite__item starnightSite__item_footer">
-
+				<a name="page_5" href="#"></a>
 				<div class="footer__text">
 					<p class="text__paragraph text__paragraph_first font__texgyreheros_regular">
 						Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas diam est venenatis vitae dui in, vestibulum mollis aicu. Donee eu nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq
 					</p>
 					<p class="text__paragraph text__paragraph_second font__texgyreheros_regular">
-						aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 	Vestibulum consectetur commodo eros, vitae laoreet lectus aliq
+						aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq
 					</p>
 				</div>
 	
 				<nav>
 					<ul class="footer__navigation">
-						<li><a class="navigation__link" href="../index.html">List one</a></li>
-						<li><a class="navigation__link" href="page2.html">Page two</a></li>
-						<li><a class="navigation__link" href="page3.html">Design</a></li>
-						<li><a class="navigation__link" href="page4.html">Work</a></li>
-						<li><a class="navigation__link" href="page5.html">Contact Me</a></li>
+						<li class="wow lightSpeedIn"><a class="navigation__link" href="#page_1">List one</a></li>
+						<li class="wow lightSpeedIn" data-wow-delay="0.3s"><a class="navigation__link" href="#page_2">Page two</a></li>
+						<li class="wow lightSpeedIn" data-wow-delay="0.6s"><a class="navigation__link" href="#page_3">Design</a></li>
+						<li class="wow lightSpeedIn" data-wow-delay="0.9s"><a class="navigation__link" href="#page_4">Work</a></li>
+						<li class="wow lightSpeedIn" data-wow-delay="1.2s"><a class="navigation__link" href="#page_5">Contact Me</a></li>
 					</ul>
 				</nav>
 	
 				<div class="footer__clear"></div>
 				
-				<div class="footer__picture"></div>
+				<div class="footer__picture wow rotateIn" data-wow-offset="100"></div>
 	
-				<div class="footer__website font__lato_regular">
+				<div class="footer__website font__lato_regular wow flip" data-wow-offset="50">
 					<span class="footer__website_text">design by</span> 
 					<a class="footer__website_link" href="#">www.blazrobar.com</a>
 				</div>
 		
 			</footer>
 		</div>
-		<!-- <div class="sub"></div> -->
 	</body>
 </html>
